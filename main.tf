@@ -15,5 +15,5 @@ provider "google" {
 }
 
 module "instance" {
-  source = "./modules/instances.tf"
+  source = "./modules/instances"
 }
